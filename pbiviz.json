@@ -1,0 +1,27 @@
+{
+  "visual": {
+    "name": "ediTable",
+    "displayName": "EdiTable",
+    "guid": "ediTableA518F460AA974914B74E6D0FA28C7207",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "2.3.0",
+  "author": {
+    "name": "Vladimir Sultanov",
+    "email": "demonspe@gmail.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [
+    "node_modules/powerbi-visuals-utils-dataviewutils/lib/index.js"
+  ],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json",
+  "stringResources": []
+}
